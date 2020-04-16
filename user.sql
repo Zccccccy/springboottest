@@ -36,3 +36,4 @@ INSERT INTO `user` VALUES ('000003', 'zxcz', '123', '24');
 INSERT INTO `user` VALUES ('000004', 'asd', 'asdasd', '24');
 INSERT INTO `user` VALUES ('000005', 'QWE', 'qwe', '18');
 INSERT INTO `user` VALUES ('000006', 'zxczxc', '123456', '24');
+
