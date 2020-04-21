@@ -1,4 +1,4 @@
-package com.example.springboottest1.mapper;
+package com.example.springboottest1.dao;
 
 import com.example.springboottest1.entity.User;
 import org.apache.ibatis.annotations.Mapper;
