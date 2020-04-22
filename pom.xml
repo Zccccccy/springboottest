@@ -95,8 +95,6 @@
 			<version>1.3.7</version>
 		</dependency>
 
-
-
 	</dependencies>
 
 	<build>
@@ -124,8 +122,13 @@
 					<fork>true</fork>
 				</configuration>
 			</plugin>
+            <!--Maven打Jar包插件-->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
 		</plugins>
-	</build>
+    </build>
 
 
 </project>
