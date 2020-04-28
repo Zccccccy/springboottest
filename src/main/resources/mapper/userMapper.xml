@@ -17,19 +17,19 @@
     </sql>
 
     <!--用户登录验证-->
-    <select id="userlogin" parameterType="user" resultType="User">
+    <select id="userLogin" parameterType="user" resultType="User">
         SELECT
         <include refid="Base_Column_List" />
         FROM user WHERE username = #{username} AND password = #{password}
     </select>
 
     <!--新用户注册  方式1-->
-    <insert id="adduser" parameterType="user" useGeneratedKeys="true" keyProperty="id">
+    <insert id="addUser" parameterType="user" useGeneratedKeys="true" keyProperty="id">
         INSERT INTO user (username,password,age) VALUES (#{username},#{password},#{age})
     </insert>
 
     <!--新用户注册  方式2-->
-    <insert id="adduser1" parameterType="user">
+    <insert id="addUser1" parameterType="user">
         INSERT INTO user (id,username,password,age) VALUES (uuid(),#{username},#{password},#{age})
     </insert>
 

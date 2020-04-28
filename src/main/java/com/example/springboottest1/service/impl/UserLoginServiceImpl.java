@@ -20,18 +20,18 @@ public class UserLoginServiceImpl implements UserLoginService {
 
     //用户登录
     public User userLogin(String username,String password){
-        return usermapper.userlogin(username,password);
+        return usermapper.userLogin(username,password);
     }
 
     //注册新用户
-    public int adduser(String username,String password,int age){
+    public int addUser(String username,String password,int age){
 
         /**
          * 注意查看mapper中的注释
          */
 
-        return usermapper.adduser(username,password,age);
-        //return usermapper.adduser1(username,password,age);     //对应sql语句中的第二种注册方式
+        return usermapper.addUser(username,password,age);
+        //return usermapper.addUser1(username,password,age);     //对应sql语句中的第二种注册方式
     }
 
     //删除用户

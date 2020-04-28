@@ -13,7 +13,7 @@ import java.util.Map;
 public interface userMapper {
 
     //用户登录
-    User userlogin(@Param("username") String username,@Param("password") String password);
+    User userLogin(@Param("username") String username,@Param("password") String password);
 
     /**
      * 在这里写了两种新建用户的方式(具体查看sql语句)：
@@ -27,10 +27,10 @@ public interface userMapper {
 
 
     //注册新用户(方式1)
-    int adduser(@Param("username") String username, @Param("password") String password, @Param("age") int age);
+    int addUser(@Param("username") String username, @Param("password") String password, @Param("age") int age);
 
     //注册新用户（方式2）
-    int adduser1(@Param("username") String username, @Param("password") String password, @Param("age") int age);
+    int addUser1(@Param("username") String username, @Param("password") String password, @Param("age") int age);
 
     //查询用户列表
     List<Map<String,Object>> queryAllUser();

@@ -124,7 +124,7 @@ public class UserLoginController {
         if(!password.equals(password2)){
             return "两次密码不相同，注册失败！！";
         }else {
-            int res = userLoginService.adduser(username,password,age);
+            int res = userLoginService.addUser(username,password,age);
             if(res == 0){
                 return "注册失败！";
             }else {

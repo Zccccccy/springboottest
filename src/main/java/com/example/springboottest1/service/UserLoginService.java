@@ -11,7 +11,7 @@ public interface UserLoginService {
     User userLogin(String username,String password);
 
     //注册新用户
-    int adduser(String username,String password,int age);
+    int addUser(String username,String password,int age);
 
     //删除用户
     int delete(int id);
