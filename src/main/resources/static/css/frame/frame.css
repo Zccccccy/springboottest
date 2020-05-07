@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+
+html,body{ height:100%; width:100%;margin:0px; padding:0px;  }
+
+.frame-index-bg {background: url(../../images/frame/b2.png) no-repeat;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;width:100%;height:100%}
+.frame-index-left {float:left;height:100%;display:table-cell;text-align:center;vertical-align:middle;}
+.frame-index-container {width:auto;display:inline-block;}
+.frame-index-name {text-align:left;color:white;font-size:50px;font-weight:bold;font-family:'Microsoft yahei';letter-spacing:2px}
+.frame-index-slogan {text-align:left;color:white;font-size:20px;font-weight:bold;font-family:'Microsoft yahei';margin-top:5px}
+.frame-index-right {float:right;background: url(../../images/frame/b3.png) no-repeat;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;;height:100%;width:500px;display:table-cell;text-align:center;vertical-align:middle;}
+.frame-index-form-layout {width:360px;display:inline-block;}
+.frame-index-text {text-align:left;height:60px;width: 100%;color:white;font-size:25px;font-weight:bold;font-family:'Microsoft yahei'}
+.frame-index-loginForm {background:white;border-radius:10px;height:82px;width: 100%}
+.frame-index-img-user {float:left;background: url(../../images/frame/b4.png);width:18px;height:20px;margin-left:15px;margin-top:10px;}
+.frame-index-img-pwd {float:left;background: url(../../images/frame/b5.png);width:18px;height:20px;margin-left:15px;margin-top:10px;}
+.frame-index-input-layout {float:left;margin-left:12px;margin-top:5px}
+.frame-index-input {height:30px;width:280px;color:#a7a7a7;border:0;outline:none}
+.frame-index-text2 {height:40px;line-height:40px;text-align:right;color:white;font-family:'Microsoft yahei';text-decoration:underline;cursor:pointer}
+.frame-index-loginBtn {margin-top:20px;background:#126ed5;border-radius:10px;height:40px;line-height:40px;text-align:center;color:white;cursor:pointer;font-family:'Microsoft yahei'}
+.frame-index-msg-num {background:red;width:16px;height:16px;border-radius:8px;margin-top:-23px;margin-left:15px;color:#ffffff;font-size:12px}
+
+.frame-4-logo{height:50px;width:100%;background:#1c2b36;padding-top:3px}
+.frame-4-logo-img{background-image:url(../../images/frame/logo.png);width:146px;height:42px;margin-left:25px;height:50px;background-repeat: no-repeat;margin-top:3px}
+.frame-4-top{margin-bottom:0;background:linear-gradient(270deg, rgba(54, 124, 183, 1) 0%, rgba(12, 35, 76, 1) 0%, rgba(54, 124, 183, 1) 100%, rgba(12, 35, 76, 1) 100%);  }
+.frame-4-foldMenu {width:60px;height:51px;background:#005d9d;float:left}
+.frame-4-foldMenu-img {width:20px;height:14px;margin-left:20px;margin-top:18px;background-image: url(../../images/frame/a1.png)}
+.frame-4-platName {width: 200px;height:50px;line-height:50px;float:left;color:white;font-size:16px;text-align:center;font-family:"open sans","Helvetica Neue",Helvetica,Arial,sans-serif}
+.frame-4-topBtn {white-space:nowrap;overflow: hidden;display: block;padding-top:14px}
+.frame-4-topBtn li {list-style: none;float:left;margin-left:30px;}
+.frame-4-userHead {float:left;background-image:url(../../images/frame/a5.png);border-radius:20px;width:30px;height:30px;background-size:30px;margin-top:-3px}
+.frame-4-userName {float:left;color: white;font-size:12px;font-family:"open sans","Helvetica Neue",Helvetica,Arial,sans-serif;margin-top:2px;margin-left:10px}
+.frame-4-route {width: 100%;height:50px;background:white}
+.frame-4-route-currRoute {float:left;height:50px;line-height:50px;font-size:16px;margin-left:15px;color:black}
+.frame-4-route-realRoute {float:right;height:50px;line-height:50px;font-size:12px;margin-right:20px}
+.frame-4-center {background-image:url(../../images/frame/a17.png)}
+.frame-4-center-container{background:white;}
+.frame-4-bottom {width:100%;height:50px;line-height:50px;padding-left:20px;color: black;bottom: 0;position: fixed;background:linear-gradient(315deg, rgba(12, 35, 76, 1) 0%, rgba(54, 124, 183, 1) 0%, rgba(12, 35, 76, 1) 100%, rgba(54, 124, 183, 1) 100%);}
+.frame-4-content {background: white}
+
+/* 间隔样式 */
+.frame-4-blank {height:15px;width:100%;background:#f0f3f4}
+/* 间隔线样式 */
+.frame-4-blank-line {height:16px;border-left:1px solid #ffffff;width:0;opacity:0.5;margin-top:2px}
+
+.frame-4-clear {clear: both}
+.frame-4-search {height:60px; background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(229, 239, 246, 1) 100%, rgba(229, 239, 246, 1) 100%)}
+
+/* btn组件样式 */
+.frame-4-tool {height:45px}
+.frame-4-btn {width:110px;height:30px;line-height:30px;float:left;cursor:pointer;border-radius:1px}
+.frame-4-btn-box{width:100px;background:#0068b2;display:table-cell;text-align:center;vertical-align:middle;border-radius:1px}
+.frame-4-btn-box-inner{display:inline-block;}
+.frame-4-btn-box-icon {float:left;background-size:12px;width:12px;height:12px;margin-top:9px}
+.frame-4-btn-box-text {float:left;color: white;margin-left:8px;font-size:13px}
+
+/* tab组件样式 */
+.frame-4-tab-content{margin-top:15px}
+.tab-item-out{border:1px solid #e5eff6;float:left;width:90px;height:40px;text-align:center;line-height:40px;background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(229, 239, 246, 1) 100%, rgba(229, 239, 246, 1) 100%)}
+.tab-item-over{border-bottom:0;font-weight:bold;float:left;width:90px;height:40px;text-align:center;line-height:40px;background:linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(229, 239, 246, 1) 100%, rgba(229, 239, 246, 1) 100%)}
+
+.frame-field {margin-top:15px;width: 100%}
+.frame-field-required {color:red;font-weight:bold;margin-right:2px}
+.frame-field-text {font-size:13px;color:black;font-family:"open sans","Helvetica Neue",Helvetica,Arial,sans-serif;float:left;width:100px;text-align:right;margin-right:10px;height: 30px;line-height: 30px;font-weight: bold}
+.frame-field-con {float:left;margin-left:10px;height: 30px;line-height: 30px}
+.frame-field-input {height:30px;width:500px;border:1px solid #a8b7c1}
+.frame-field-textarea {height:60px;width:500px;border:1px solid #a8b7c1}
+
+.frame-checkbox-con {float:left;min-width:120px;height:25px;line-height:25px;width: auto;margin-left:10px}
+.frame-checkbox-box {float:left;margin-top:2px;margin-right:4px}
+
+.frame-dialog-title-text{color:white;font-weight: bold;font-size:14px;font-family:"open sans","Helvetica Neue",Helvetica,Arial,sans-serif}
+.frame-dialog-title {
+    height:50px;
+    padding: 15px;
+    background: url(../../images/frame/a2.png) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.frame-menu-con {min-width:120px;height:30px;line-height:30px;}
+.frame-menu-con2 {min-width:120px;height:30px;line-height:30px;margin-left:40px}
+.frame-menu-con3 {min-width:120px;height:30px;line-height:30px;margin-left:40px}
+.frame-menu-box {float:left;margin-top:5px;margin-right:4px}
+
+.frame-form-label{font-weight:bold;color:black}
+
+/* 右边主界面，以左树形，右表格布局*/
+.frame-con-left{width:250px;height:100%;float:left;}
+.frame-con-left-title{height:33px;width:100%;background:#e5eff6;font-weight:bold;color:black;text-align:center;line-height:33px}
+.frame-con-right{height:100%;float:left;margin-left:15px}
+
+
+.td-4-title{background:#e5eff6;text-align:center;color:black;font-size:13px;border-right:1px solid #f8fcff;border-bottom:1px solid #f8fcff;font-weight:bold}
+.td-4-title-right{background:#e5eff6;text-align:right;color:black;font-size:13px;border-right:1px solid #f8fcff;border-bottom:1px solid #f8fcff;font-weight:bold}
+.td-4-value{background:#f8fcff;text-align:center;color:black;font-size:13px;border-right:1px solid #e5eff6;border-bottom:1px solid #e5eff6}
+.td-4-value-left{background:#f8fcff;text-align:left;color:black;font-size:13px;border-right:1px solid #e5eff6;border-bottom:1px solid #e5eff6}
+
+.white {color:white}
+.frame-hide{display: none}
+.w300{width:300px}
+
+/*样式重置*/
+.frame-4-search{
+    background: #fff;
+}
+.checkbox {
+    padding-left: 60px;
+}
+.checkbox label {
+    min-width: 130px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    padding-left: 8px;
+}
+.checkbox label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 0;
+    margin-left: -20px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    background-color: #fff;
+    -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+.checkbox label::after {
+    display: inline-block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 0;
+    top: 0;
+    margin-left: -20px;
+    padding-left: 3px;
+    font-size: 11px;
+    color: #555555;
+}
+.checkbox input[type="checkbox"],
+.checkbox input[type="radio"] {
+    opacity: 0;
+    z-index: 1;
+}
+.checkbox input[type="checkbox"]:focus + label::before,
+.checkbox input[type="radio"]:focus + label::before {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+.checkbox input[type="checkbox"]:checked + label::after,
+.checkbox input[type="radio"]:checked + label::after {
+    font-family: "FontAwesome";
+    content: "\f00c";
+}
+.checkbox input[type="checkbox"]:indeterminate + label::after,
+.checkbox input[type="radio"]:indeterminate + label::after {
+    display: block;
+    content: "";
+    width: 10px;
+    height: 3px;
+    background-color: #555555;
+    border-radius: 2px;
+    margin-left: -16.5px;
+}
+.checkbox input[type="checkbox"]:disabled + label,
+.checkbox input[type="radio"]:disabled + label {
+    opacity: 0.65;
+}
+.checkbox input[type="checkbox"]:disabled + label::before,
+.checkbox input[type="radio"]:disabled + label::before {
+    background-color: #eeeeee;
+    cursor: not-allowed;
+}
+.checkbox.checkbox-circle label::before {
+    border-radius: 50%;
+}
+.checkbox.checkbox-inline {
+    margin-top: 0;
+}
+
+.checkbox-success input[type="checkbox"]:checked + label::before,
+.checkbox-success input[type="radio"]:checked + label::before {
+    background-color: #fff;
+    border-color: #ddd;
+}
+.checkbox-success input[type="checkbox"]:checked + label::after,
+.checkbox-success input[type="radio"]:checked + label::after {
+    color: #333;
+}
+
+.checkbox-success input[type="checkbox"]:indeterminate + label::before,
+.checkbox-success input[type="radio"]:indeterminate + label::before {
+    background-color: #fff;
+    border-color: #ddd;
+}
+
+.checkbox-success input[type="checkbox"]:indeterminate + label::after,
+.checkbox-success input[type="radio"]:indeterminate + label::after {
+    background-color: #fff;
+}
+input[type="checkbox"].styled:checked + label:after,
+input[type="radio"].styled:checked + label:after {
+    font-family: 'FontAwesome';
+    content: "\f00c";
+}
+input[type="checkbox"] .styled:checked + label::before,
+input[type="radio"] .styled:checked + label::before {
+    color: #fff;
+}
+input[type="checkbox"] .styled:checked + label::after,
+input[type="radio"] .styled:checked + label::after {
+    color: #fff;
+}
+

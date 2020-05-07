@@ -1,6 +1,7 @@
 package com.example.springboottest1.service;
 
 import com.example.springboottest1.entity.User;
+import com.github.pagehelper.PageInfo;
 
 import java.util.List;
 import java.util.Map;
@@ -19,4 +20,7 @@ public interface UserLoginService {
     List<Map<String,Object>> queryAllUser();
 
     List<Map<String,Object>> queryUser_name();
+
+    //查询用户列表
+    PageInfo<User> queryAllUser1(User userList, PageInfo pageInfo);
 }

@@ -1,6 +1,6 @@
 package com.example.springboottest1.entity;
 
-public class User {
+public class User extends BaseBean{
 
     private String id;
 

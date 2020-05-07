@@ -1,5 +1,6 @@
 package com.example.springboottest1.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -12,10 +13,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping(value = {"/hello"})
-public class HelloController {
+public class HelloController extends BaseController {
 
     @RequestMapping(value = {"/springboot"})
     public String hello(){
+        String loginStatus = this.loginCheck();
+        if (loginStatus==""){
+            return "HelloWord";
+        }
         return "HelloWord";
     }
 }

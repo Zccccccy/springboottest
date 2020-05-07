@@ -27,7 +27,7 @@
                     <td>${list.username}</td>
                     <td>${list.age}</td>
                     <td><a href="${pageContext.request.contextPath}/update/${list.id}">修改</a> </td>
-                    <td><a href="${pageContext.request.contextPath}/user/delete_id/${liat.id}" class="del"</td>
+                    <td><a href="${pageContext.request.contextPath}/user/delete_id/${list.id}" class="del">删除？</a></td>
                 </tr>
             </c:forEach>
             </tbody>

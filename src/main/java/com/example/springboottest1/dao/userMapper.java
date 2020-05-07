@@ -10,7 +10,7 @@ import java.util.Map;
 
 @Mapper
 @Component
-public interface userMapper {
+public interface userMapper extends BaseMapper{
 
     //用户登录
     User userLogin(@Param("username") String username,@Param("password") String password);
@@ -38,4 +38,6 @@ public interface userMapper {
     List<Map<String, Object>> queryUser_name();
 
     int delete(@Param("id") int id);
+
+    List<User> queryAllUser1(User user);
 }

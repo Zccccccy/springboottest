@@ -1,8 +1,10 @@
 package com.example.springboottest1.service.impl;
 
+import com.example.springboottest1.config.PageUtils;
 import com.example.springboottest1.entity.User;
 import com.example.springboottest1.dao.userMapper;
 import com.example.springboottest1.service.UserLoginService;
+import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -43,7 +45,15 @@ public class UserLoginServiceImpl implements UserLoginService {
     public List<Map<String,Object>> queryAllUser(){
         return usermapper.queryAllUser();
     }
+
     public List<Map<String,Object>> queryUser_name(){
         return usermapper.queryUser_name();
+    }
+
+    public PageInfo<User> queryAllUser1(User user, PageInfo pageInfo){
+        if (pageInfo != null) {
+            PageUtils.page(pageInfo);
+        }
+        return new PageInfo<>(usermapper.queryAllUser1(user));
     }
 }

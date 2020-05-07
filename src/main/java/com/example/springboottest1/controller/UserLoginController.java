@@ -2,6 +2,7 @@ package com.example.springboottest1.controller;
 
 import com.example.springboottest1.entity.User;
 import com.example.springboottest1.service.UserLoginService;
+import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.StringUtils;
@@ -15,7 +16,7 @@ import java.util.Map;
 
 @Controller
 @RequestMapping(value = {"/user"})
-public class UserLoginController {
+public class UserLoginController extends BaseController{
 
     /**
      * 最开始希望用Map的形式接参数，后来不用了，将请求对应的接受方式记录一下
@@ -30,10 +31,6 @@ public class UserLoginController {
     @Autowired
     private UserLoginService userLoginService;
 
-
-    /**
-     * 同时这个时候可以自己了解一下@Controller与@RestController的区别，以及@ResponseBody的用法。
-     */
 
     /**
      * 跳转到用户登录页面
@@ -169,6 +166,22 @@ public class UserLoginController {
 
         return userLoginService.queryAllUser();
     }
+
+
+    @RequestMapping(value = {"/select"})
+    public String select(){
+        return "userList";
+    }
+
+
+    @ResponseBody
+    @RequestMapping(path = "/queryAllUser1")
+    public PageInfo queryAllUser1(User userList, PageInfo pageInfo) {
+        return userLoginService.queryAllUser1(userList, pageInfo);
+    }
+
+
+
     /**
      * 用于测试拦截器（用户是否登录，查看session）
      * 查询用户姓名列表  http://localhost:8080/user/queryUser_name
