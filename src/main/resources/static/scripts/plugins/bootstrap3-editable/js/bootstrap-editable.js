@@ -30,7 +30,6 @@
             this.input = this.options.input;
 
             //set initial value
-            //todo: may be add check: typeof str === 'string' ? 
             this.value = this.input.str2value(this.options.value);
 
             //prerender: get input.$input
@@ -953,7 +952,6 @@
                 $(document).on('keyup.editable', function (e) {
                     if (e.which === 27) {
                         $('.editable-open').editableContainer('hide');
-                        //todo: return focus on element 
                     }
                 });
 
@@ -1081,7 +1079,6 @@
                     });
                          **/
                         /*
-                         TODO: added second param mainly to distinguish from bootstrap's shown event. It's a hotfix that will be solved in future versions via namespaced events.  
                          */
                         this.$element.triggerHandler('shown', $(this.options.scope).data('editable'));
                     }, this)
@@ -1117,7 +1114,6 @@
 
             //if form already exist - delete previous data 
             if (this.$form) {
-                //todo: destroy prev data!
                 //this.$form.destroy();
             }
 
@@ -4418,7 +4414,6 @@
             this.$element.removeData('combodate').show();
         }
 
-        //todo: clear method        
     };
 
     $.fn.combodate = function (option) {

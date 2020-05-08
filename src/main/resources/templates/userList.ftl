@@ -35,30 +35,8 @@
 <script src="../static/scripts/plugins/bootstrap-table/bootstrap-table-editable.min.js"></script>
 <script src="../static/scripts/plugins/bootstrap3-editable/js/bootstrap-editable.min.js"></script>
 <script src="../static/scripts/plugins/bootstrap-table/bootstrap-table-mobile.min.js"></script>
-<#--<script src="../static/scripts/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js"></script>-->
+<script src="../static/scripts/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js"></script>
 <script src="../static/scripts/plugins/bootstrap-select/bootstrap-select.min.js"></script>
-<!-- Peity -->
-<#--<script src="../static/scripts/plugins/peity/jquery.peity.min.js"></script>-->
-<!--jquery validate-->
-<#--<script src="../static/scripts/plugins/validate/jquery.validate.min.js"></script>-->
-<#--<script src="../static/scripts/plugins/validate/messages_zh.min.js"></script>-->
-<!--serializejson-->
-<#--<script src="../static/scripts/plugins/serializejson/jquery.serializejson.min.js"></script>-->
-<!-- layer -->
-<#--<script src="../static/scripts/plugins/layer/layer.js"></script>-->
-<#--<script src="../static/scripts/plugins/laydate/laydate.js"></script>-->
-<!--vue-->
-<#--<script src="../static/scripts/vue.js"></script>-->
-<!-- 自定义js -->
-<#--<script src="../static/scripts/content.js"></script>-->
-<!--common-->
-<#--<script src="../static/scripts/common.js"></script>-->
-<#--<script src="${staticServer}/scripts/fileupload2.js"></script>-->
-<#--<script type="text/javascript" src="../static/scripts/fileupload2.js"-->
-<#--        data-uploadtourl="https://img.cptdc.com:443/koto/"-->
-<#--        data-imageurl="https://img.cptdc.com:443/koto/img/{id}.img_150_150.img"></script>-->
-<#--<script src="../static/scripts/frame/frame-4-component.js"></script>-->
-
 
 <script src="../static/scripts/plugins/bootstrap-table/extensions/export/bootstrap-table-export.js"></script>
 <script src="../static/scripts/plugins/tableExport/tableExport.js"></script>
