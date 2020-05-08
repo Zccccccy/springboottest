@@ -35,7 +35,7 @@
 <script src="../static/scripts/plugins/bootstrap-table/bootstrap-table-editable.min.js"></script>
 <script src="../static/scripts/plugins/bootstrap3-editable/js/bootstrap-editable.min.js"></script>
 <script src="../static/scripts/plugins/bootstrap-table/bootstrap-table-mobile.min.js"></script>
-<script src="../static/scripts/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js"></script>
+<script src="../static/scripts/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.js"></script>
 <script src="../static/scripts/plugins/bootstrap-select/bootstrap-select.min.js"></script>
 
 <script src="../static/scripts/plugins/bootstrap-table/extensions/export/bootstrap-table-export.js"></script>
